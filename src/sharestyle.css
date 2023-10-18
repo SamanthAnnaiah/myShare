@@ -1,0 +1,161 @@
+@font-face {
+  font-family: "Smono";
+  src: url("./smono.ttf");
+}
+
+body {
+  box-sizing: border-box;
+  background-color: hsl(185, 41%, 84%);
+  font-family: "Smono";
+  font-weight: 700;
+}
+
+div.middler {
+  margin-top: 15px;
+  display: grid;
+  place-items: center;
+}
+
+div.main_head {
+  margin: 0px;
+  padding: 0px;
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+div.main_div {
+  color: #100101 !important;
+  padding: 10px;
+  height: 80vh;
+  width: 1050px;
+  margin: auto;
+  margin-top: 8px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  border-radius: 12px;
+  background-color: hsl(0, 0%, 100%);
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+div.sub_div {
+  width: 50%;
+  height: 90%;
+  margin: 10px;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+}
+
+div.sub_div > div {
+  margin: 10px;
+}
+
+.bg1 {
+  background-color: hsl(183, 100%, 15%);
+  color: hsl(0, 0%, 100%);
+}
+
+.berror {
+  border-color: red;
+  border-width: 4px;
+}
+
+.cerror {
+  color: red;
+}
+
+div.bg3 {
+  background-color: hsl(194, 44%, 72%);
+  color: hsl(183, 100%, 15%);
+}
+
+input,
+select {
+  padding: 4px;
+  border-radius: 5px;
+  font-weight: bold;
+  font-size: 14px;
+}
+select {
+  width: 200px;
+}
+
+div.flistdiv {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+div.bform div {
+  margin: 16px;
+}
+div.flistdiv h3 {
+  color: hsl(185, 41%, 84%);
+}
+div.flist:hover {
+  background-color: antiquewhite;
+}
+.articlelist {
+  height: 300px;
+  overflow: auto;
+}
+
+div.finput {
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  border-radius: 15px;
+}
+div.frow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+div.flistdiv > div {
+  margin: 5px;
+}
+
+div.flist {
+  display: flex;
+  flex-direction: row;
+  width: 95%;
+  padding: 3px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border-radius: 12px;
+}
+
+div span {
+  width: 50%;
+}
+
+.tinp:hover {
+  cursor: pointer;
+}
+
+div > p {
+  font-size: 12px;
+  color: hsl(186, 14%, 43%);
+}
+
+.bclass {
+  margin: 2px;
+  display: inline-block;
+  padding: 12px 12px;
+  font-size: 14px;
+  background-color: hsl(172, 67%, 45%); /* Button Background Color */
+  color: #100101; /* Text Color */
+  border: none;
+  border-radius: 8px;
+  font-weight: bolder;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  text-align: center;
+  text-decoration: none;
+  margin: 10px;
+  width: 90px;
+}
+
+.bclass:hover {
+  background-color: hsl(173, 41%, 80%);
+}
