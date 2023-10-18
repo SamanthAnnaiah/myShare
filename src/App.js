@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import './sharestyle.css';
 
+// Primary component App
 function App() {
 
   let mfr = {
